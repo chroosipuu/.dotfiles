@@ -1,12 +1,13 @@
 # Dotfiles
 
 ## Instaling
+
 ```bash
 # 1. Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # 2. Install brew bundle
-.dotfiles % brew bundle install --file ./Brewfile
+brew bundle install --file ./Brewfile
 
 # 3. Stow dotfiles
 stow . -t ~
